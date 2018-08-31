@@ -1,0 +1,85 @@
+	Introductions:
+
+		Your First Program:
+		
+		
+	public static void main (String[] args){
+			System.out.println("Hello World!");
+		}
+
+
+		Important things in this:
+	
+	{} - are brackets, you already know what brackets are for but for the rest of the class
+	that doesn't know what they are: Anything inside of the brackets is code that will
+	be run when you actually, well, run the code.
+
+	--------------------------------------------------------------------------------
+
+		Strings:
+
+	"Hello World" 
+
+	Strings are sequences of characters. In Java strings are enclosed in double quotation
+	marks "".
+
+	Not ''s, those are used for char values, which I'll go into later.
+
+	--------------------------------------------------------------------------------
+
+		Escape Sequences:
+
+	Escape sequences make it so that certain things are keyed into Java, to use them out of the actual
+	use that they normally have you use this thing called an escape sequence, which is this: \
+
+	The list of usable escape sequences are these:
+
+	\n - The newline ES: This makes it so that if you want to make a new line inside of a string ("")
+	you use this
+
+	--------------------------------------------------------------------------------	
+
+		Identifiers:
+
+	Identifiers are just names that you add to stuff like classes, etc.
+	- Good identifier convention is seomthing that explains the overall use of the method, class, etc.
+
+	Ex:
+		- visionSystem (Good, short, concise, and helps me know what stuff does)
+
+		- thisExplainsEverythingInThisClassAndCode (Bad, way too long)
+
+	There are certain illegal starts to identifiers. You can't start with a number, a keyword
+	or have a character inside of the name.
+
+	--------------------------------------------------------------------------------	
+
+		Java naming styles:
+
+	For these you use camelCase, which regular code does stuff for, that made no sense, sooo, here:
+
+	goodNamingConvention -used for regular tokens and stuff of the sort
+
+	THIS_IS_A_CONSTANT -that kind of convention is used for constants
+
+	ThisIsAClass -Well, the way I learned it was that this is used for a class.
+
+
+	--------------------------------------------------------------------------------
+
+		Bugs:
+
+	There are certian times (a lot of times) when your code doesnt actually work, and they normally fall
+	under a lot of categories, one of them jst happens to be this thing called a logical error.
+
+		Logical Errors:
+		
+	- Logical errors are where the actual logic of the code doesn't work out in practice, which happens
+	quite a lot.
+
+		Syntax Errors:
+
+	- Syntax errors are mistakes with misspelled words, misspelled characters, randomly placed or
+	forgotten semicolons (;), and a bunch of other crap that you'll just figure out over the time you
+	program.
+
