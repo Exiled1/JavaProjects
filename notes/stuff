@@ -83,3 +83,42 @@
 	forgotten semicolons (;), and a bunch of other crap that you'll just figure out over the time you
 	program.
 
+	--------------------------------------------------------------------------------
+
+		Objectives for 9/5/2018:
+
+		Algorithms:
+
+	Algorithm: A list of steps for solving problems.
+
+	+---------------+
+	|		|
+	|		|
+	|		|
+	+---------------+
+			\
+			 \
+			+---------------+ 
+			|		| 
+			|		| 
+			|		| 
+			+---------------+ 
+		
+
+
+		Static Methods:
+	
+	Static methods: A named group of statements
+
+
+		using static methods:
+
+	- Define / Declare the method
+
+	- Call or run the method
+
+	- *Insider Tip* The main method always runs first
+
+	--------------------------------------------------------------------------------
+	
+			
