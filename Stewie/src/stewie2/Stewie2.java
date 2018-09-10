@@ -3,6 +3,7 @@ package stewie2;
 Actually... the book doesn't directly say not to use variables,
 It simply says to use at least one static method besides main,
 :ThinkingEmoji:
+@Author Rudy Peralta
  */
 
 public class Stewie2 {

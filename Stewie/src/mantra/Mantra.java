@@ -1,5 +1,7 @@
 package mantra;
-
+/*
+@Author Rudy Peralta
+ */
 public class Mantra {
     public static void main(String[] args) {
         ILoveMakingRandomMethodsForNoReason();
