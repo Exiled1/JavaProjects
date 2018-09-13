@@ -9,6 +9,6 @@ public class MuchBetter {
         System.out.println("the rules of \"escape sequences.\"");
         System.out.println("Also, \"\" represents an empty String.");
         System.out.println("Don't forget: use \\\" instead of \" !");
-        System.out.println("'' is not the same as \"\"");
+        System.out.println("'' is not the same as \"");
     }
 }
