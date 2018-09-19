@@ -121,4 +121,63 @@
 
 	--------------------------------------------------------------------------------
 	
-			
+		Data types:
+
+	- Two data type groups in Java:
+		> int, double, char, boolean
+	
+	- Objects:
+		> String, .... - And stuff we deal with later.
+
+	Char Data type:
+
+	- Makes it so that you're able to use characters as a data type
+
+	Boolean:
+	- Describes a logical value, it can be either true or false. (1/0)
+
+	--------------------------------------------------------------------------------
+
+		Variables!!!
+	- A piece of the computer's memory that is given a name and type and can store a
+	value
+
+	There are a couple steps for this:
+
+		1) Declaring the variable:
+	
+	Syntax:
+	
+		<type> <variable name>;
+
+	Please please please make a variable:
+
+		- Short and concise, no paragraphs for variables.
+		- Relevant to the actual context of the program.
+		- NOT A SINGLE FLIPPIN LETTER, IF YOU WRITE CODE AND CAN'T EXPLAIN WHAT
+		EVERYTHING DOES, REWRITE IT please.
+
+	Step 3: Using the variable:
+
+		
+	--------------------------------------------------------------------------------		
+
+
+		For Loops!!!!!
+
+	- for( int i = 1; i <= 10; i++){
+	
+	System.out.println("-----");
+	System.out.println(i * i);
+	}
+
+	Okay, so, this is divided into 3 portions, the declaration of the variable i
+	(Or the state)
+
+	2) It then checks the conditions validity by using the statement i <= 10, so
+	you'll be going through the loop a good amount of times, specifically after 10
+	cycles.
+
+	3) Finally, at the end of the first loop (i = 1) it'll then raise i by 1 (i++)
+
+
