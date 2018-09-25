@@ -181,3 +181,74 @@
 	3) Finally, at the end of the first loop (i = 1) it'll then raise i by 1 (i++)
 
 
+	--------------------------------------------------------------------------------
+
+			Nested For Loops!!!
+
+
+		- single loop:
+
+	for(int i = 1; i <= 3; i++ {
+		
+			for(int j = 1; j <=3; j++){
+			System.out.println("Happy programming today!!");
+		} 
+	}
+
+
+	Oh, interesting thing, for the int = j thing that was going on for the second
+	loop, it actually uninitializes j as an integer once it leaves the loop, so
+	it just clears the data in j and leaves it as 0 once it ends.
+
+	--------------------------------------------------------------------------------
+
+		Variable scoping:
+
+	- Don't try to use variables outside of their methods (except for when you use
+	the "this" keyword in Java)
+
+	- You also shouldn't use variables outside of 
+
+
+	--------------------------------------------------------------------------------
+
+
+		Pseudo-Code:
+
+	- Okay, this is literally my favorite thing about any language, pseudo-code is
+	actually a system to be able to break up a large problem into smaller, more
+	manageable portions that you can program seperately, like, if someone asks you
+	to make a program that prints an upside down triangle (********* all the way
+	down to *) you're able to:
+
+		- Break it down into the necessary portions, since there are 5 lines of
+		the pyramid, you can turn it into a code snippet like this:
+
+	~~~
+	``` for( 1 to 5){
+		print(line - 1){
+		spaces
+		}
+		print ((5 lines) * 2 + 1) asterisk things // the 1 is so that you can
+		// keep an array of 0 to be able to keep a thing
+		make a newline (\n)
+	```
+	~~~
+
+	Aaaaand then just program all that ish and you're good.
+
+
+	--------------------------------------------------------------------------------
+
+
+		Magic Numbers and Class constants!!!
+
+	- Aaaalright, we're finally getting into some damn Object orientation, basically
+	magic numbers refer to the number values that you have inside your code (5, or 1
+	or 2), they're the values that are declared into your code that dont ever change
+	anything.
+
+	- You also use a new keyword!!! finals!!!
+		> Finals are pretty much the de facto "DONT TOUCH ME DAMMIT" of java,
+		finals make it impossible to change during run-time/at any point in time
+		other than when it's first declared. 
