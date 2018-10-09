@@ -251,4 +251,16 @@
 	- You also use a new keyword!!! finals!!!
 		> Finals are pretty much the de facto "DONT TOUCH ME DAMMIT" of java,
 		finals make it impossible to change during run-time/at any point in time
-		other than when it's first declared. 
+		other than when it's first declared/initiated. 
+
+	--------------------------------------------------------------------------------
+
+		Parameters!!!!
+
+	- Parameters are pretty much awesome, they allow you to pass, well, parameters
+	(AKA "values") into a method that you've made before. Sya you have a specific
+	method that 
+
+	- Oh, also, DONT PUT A VARIABLE TYPE INSIDE THE FUNCTION CALL!!! Java (thank gods)
+	wont let you do this, plus it'll just break your code and that's never fun.
+
