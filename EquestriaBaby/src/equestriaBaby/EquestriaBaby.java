@@ -1,10 +1,13 @@
 package equestriaBaby;
 
+import java.util.Scanner;
+
 public class EquestriaBaby {
     /**
      * @author Linuxxx/Rudy Peralta
      */
     public static void main(String[] args) {
+        Scanner userInput = new Scanner(System.in);
 
         System.out.println("Exercise 1: \n \t Circumferance = " + roadTrip(4));
 
